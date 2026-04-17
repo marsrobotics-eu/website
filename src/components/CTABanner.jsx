@@ -3,12 +3,12 @@ export default function CTABanner() {
     <div className="cta-banner">
       <div className="cta-bg" />
       <div className="cta-content">
-        <h2>Step into the future,<br />guided by AI clarity</h2>
+        <h2>Amsterdam's robotics community<br />starts here.</h2>
         <p>
-          Experience the tool right now. Just dive in<br />
-          and see what AI can do for you.
+          We're in the founding stage. The people who join now<br />
+          shape what ARC becomes.
         </p>
-        <a href="#" className="pill">Try It Now</a>
+        <a href="#" className="pill">Join the Collective</a>
       </div>
     </div>
   )

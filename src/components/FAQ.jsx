@@ -2,31 +2,31 @@ import { useState } from 'react'
 
 const leftFaqs = [
   {
-    q: 'What is this AI platform designed for?',
-    a: 'ARC is designed to be your intelligent companion for writing, productivity, and automation — helping you think clearer and work faster every day.',
+    q: 'What is ARC?',
+    a: 'Amsterdam Robotics Collective is an open community for robotics builders, engineers, students, and researchers based in Amsterdam. We organise hackathons, keynotes, workshops, and competitions, and we\'re building toward membership in the ESRA European robotics network.',
   },
   {
-    q: 'Do I need technical knowledge to use it?',
-    a: 'Not at all. ARC is built for everyone — just type naturally and the AI handles the rest. No coding or technical expertise required.',
+    q: 'Do I need to be a student to join?',
+    a: 'No. ARC is open to everyone: students, PhD researchers, working engineers, and founders. The only requirement is that you\'re genuinely interested in building robotics.',
   },
   {
-    q: 'Which AI models power the tool?',
-    a: 'Message uses state-of-the-art language models optimized for speed, accuracy, and contextual understanding across all use cases.',
+    q: 'What universities are you connected to?',
+    a: 'We have founding members from VU Amsterdam and UvA, and we\'re actively building relationships with TU Delft RSA and other Dutch technical universities.',
   },
 ]
 
 const rightFaqs = [
   {
-    q: 'Is there a free plan available?',
-    a: 'Yes! Our Starter plan is free forever with 50 messages per month and access to core features to get you started right away.',
+    q: 'When is the first event?',
+    a: 'We\'re planning our first keynote event for mid-2026. Sign up to be notified and to get early access.',
   },
   {
-    q: 'Can I use this for business purposes?',
-    a: 'Absolutely. Our Pro and Team plans are designed for professional and business use, with advanced features and priority support.',
+    q: 'How can my company get involved?',
+    a: 'We\'re actively looking for founding sponsors and industry partners. If your company works in robotics or physical AI and wants access to Amsterdam\'s best builders, reach out to us directly.',
   },
   {
-    q: 'How can I get support if I have issues?',
-    a: 'You can reach our support team via the in-app chat, email, or our community forum. Pro and Team members get priority response times.',
+    q: 'How do I join?',
+    a: 'Fill in the form on this page or reach out directly at arc@amsterdamrobotics.nl. We\'ll be in touch.',
   },
 ]
 
@@ -50,7 +50,7 @@ export default function FAQ() {
         <p className="label">FAQ</p>
         <h2 className="section-title">
           <strong>Your questions,</strong>
-          <span className="gray"> answered with clarity</span>
+          <span className="gray"> answered.</span>
         </h2>
 
         <div className="faq-cols">

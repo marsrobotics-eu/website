@@ -4,8 +4,8 @@ export default function HowItWorks() {
       <div className="section-wrap">
         <p className="label">How It Works</p>
         <h2 className="section-title">
-          <strong>One prompt to begin,</strong><br />
-          <span className="gray">three steps to clarity.</span>
+          <strong>From zero to builder.</strong><br />
+          <span className="gray">Here's how ARC works.</span>
         </h2>
 
         <div className="how-grid">
@@ -56,8 +56,8 @@ export default function HowItWorks() {
                 </svg>
               </div>
               <div className="step-body">
-                <h4>1 — Call</h4>
-                <p>Type or speak your request, a thought, a task, a question.</p>
+                <h4>1. Join</h4>
+                <p>Sign up and become part of Amsterdam's first open robotics community. Students, engineers, researchers, everyone is welcome.</p>
               </div>
             </div>
             <div className="how-step">
@@ -67,8 +67,8 @@ export default function HowItWorks() {
                 </svg>
               </div>
               <div className="step-body">
-                <h4>2 — Awaken</h4>
-                <p>The assistant weaves the answer, shaping text or insight in seconds.</p>
+                <h4>2. Show up</h4>
+                <p>Come to events, workshops, and hackathons. Meet the people building physical AI in the Netherlands and across Europe.</p>
               </div>
             </div>
             <div className="how-step">
@@ -78,8 +78,8 @@ export default function HowItWorks() {
                 </svg>
               </div>
               <div className="step-body">
-                <h4>3 — Embrace</h4>
-                <p>Take what appears — refine it, use it, and move forward with ease.</p>
+                <h4>3. Build</h4>
+                <p>Join a project team, enter a competition, or pitch your own idea. ARC gives you the people, the space, and the network to make it real.</p>
               </div>
             </div>
           </div>

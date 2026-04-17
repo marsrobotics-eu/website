@@ -16,7 +16,7 @@ export default function Footer() {
             ARC
           </a>
           <p className="footer-tagline">
-            Amsterdam Robotics Collective — building things that move.
+            Amsterdam Robotics Collective. Building things that move.
           </p>
           <div className="footer-socials">
             <div className="soc-icon" aria-label="X / Twitter">

@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-const tabs = ['Content Creation', 'Coding Help', 'Research & Insights', 'Focus & productivity']
+const tabs = ['Build', 'Learn', 'Compete', 'Connect']
 
-function ContentCreationPanel() {
+function BuildPanel() {
   return (
     <div className="tab-panel active">
       <div className="tab-img-wrap">
@@ -35,15 +35,15 @@ function ContentCreationPanel() {
         </div>
       </div>
       <div className="tab-text">
-        <p className="tab-sublabel">Content Creation</p>
-        <h3>Bring stories, posts, and ideas to life with words that flow naturally.</h3>
-        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>Get started</a>
+        <p className="tab-sublabel">HANDS-ON PROJECTS</p>
+        <h3>Hackathons, build weeks, and hardware projects with real deadlines and real shipping. No slides-only culture. We make things that move.</h3>
+        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>See upcoming builds</a>
       </div>
     </div>
   )
 }
 
-function CodingHelpPanel() {
+function LearnPanel() {
   return (
     <div className="tab-panel active">
       <div className="tab-img-wrap">
@@ -60,15 +60,15 @@ function CodingHelpPanel() {
         </div>
       </div>
       <div className="tab-text">
-        <p className="tab-sublabel">Coding Help</p>
-        <h3>Debug faster, write cleaner code, and ship with confidence.</h3>
-        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>Get started</a>
+        <p className="tab-sublabel">KEYNOTES & WORKSHOPS</p>
+        <h3>Talks and workshops from researchers, engineers, and founders at the frontier of physical AI and robotics. ROS2, simulation, world models, and what's actually being built in labs and startups right now.</h3>
+        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>See upcoming events</a>
       </div>
     </div>
   )
 }
 
-function ResearchPanel() {
+function CompetePanel() {
   return (
     <div className="tab-panel active">
       <div className="tab-img-wrap">
@@ -83,38 +83,38 @@ function ResearchPanel() {
         </div>
       </div>
       <div className="tab-text">
-        <p className="tab-sublabel">Research &amp; Insights</p>
-        <h3>Condense hours of research into clear, actionable insights in seconds.</h3>
-        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>Get started</a>
+        <p className="tab-sublabel">COMPETITIONS</p>
+        <h3>Robotics challenges that push your skills and connect you to the best builders in Europe. Our pipeline leads to ESRA pan-European competitions and events.</h3>
+        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>See competitions</a>
       </div>
     </div>
   )
 }
 
-function FocusPanel() {
+function ConnectPanel() {
   return (
     <div className="tab-panel active">
       <div className="tab-img-wrap">
         <div className="tab-img-inner" style={{ background: '#0e1218', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '28px', gap: '12px' }}>
           <div className="focus-card">
-            <div className="focus-title">Focus Session — 25:00</div>
+            <div className="focus-title">Focus Session: 25:00</div>
             <div className="progress-bar"><div className="progress-fill" /></div>
           </div>
           <div className="focus-card">
-            <div className="focus-note">3 tasks completed today. Stay focused — 2 remaining. You're doing great.</div>
+            <div className="focus-note">3 tasks completed today. Stay focused, 2 remaining. You're doing great.</div>
           </div>
         </div>
       </div>
       <div className="tab-text">
-        <p className="tab-sublabel">Focus &amp; productivity</p>
-        <h3>Stay in flow with gentle nudges that keep you on track and distraction-free.</h3>
-        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>Get started</a>
+        <p className="tab-sublabel">THE NETWORK</p>
+        <h3>Students, PhD researchers, engineers, and founders in one room. ARC is open to everyone, not just students. The best ideas come from people who wouldn't normally meet.</h3>
+        <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>Join the Collective</a>
       </div>
     </div>
   )
 }
 
-const panels = [ContentCreationPanel, CodingHelpPanel, ResearchPanel, FocusPanel]
+const panels = [BuildPanel, LearnPanel, CompetePanel, ConnectPanel]
 
 export default function UseCases() {
   const [active, setActive] = useState(0)
@@ -123,10 +123,10 @@ export default function UseCases() {
   return (
     <div id="about">
       <div className="section-wrap">
-        <p className="label">Use cases</p>
+        <p className="label">WHAT WE DO</p>
         <h2 className="section-title">
-          <strong>Different paths to explore</strong>
-          <span className="gray"> all guided by one silent companion.</span>
+          <strong>One community.</strong>
+          <span className="gray"> Three ways to get involved.</span>
         </h2>
 
         <div className="tabs-bar" role="tablist">

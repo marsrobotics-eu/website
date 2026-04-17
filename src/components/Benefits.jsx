@@ -5,8 +5,8 @@ const benefits = [
         <path d="M5 22h14M5 2h14M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2" />
       </svg>
     ),
-    title: 'Time Returned',
-    body: 'Automate the routine and reclaim hours for what matters most.',
+    title: 'Real hardware access',
+    body: 'Workshop space at Fablab Amsterdam, ZB45, and university labs. Build with actual components, not just simulations.',
   },
   {
     icon: (
@@ -14,8 +14,8 @@ const benefits = [
         <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z" />
       </svg>
     ),
-    title: 'Words with Ease',
-    body: 'Turn thoughts into polished writing — clear, natural, and fast.',
+    title: 'European network',
+    body: 'Direct pipeline to ESRA: 13 clubs, 8 countries. Pan-European hackathons, shared resources, and cross-border collaboration.',
   },
   {
     icon: (
@@ -23,8 +23,8 @@ const benefits = [
         <circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" />
       </svg>
     ),
-    title: 'Guided Focus',
-    body: 'Stay sharp with gentle nudges that keep distractions away.',
+    title: 'Industry connections',
+    body: 'Access to Amsterdam\'s 350+ robotics companies and SPRINT Robotics\' global network. Sponsors, mentors, and future employers.',
   },
   {
     icon: (
@@ -32,8 +32,8 @@ const benefits = [
         <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
       </svg>
     ),
-    title: 'Instant Knowledge',
-    body: 'Condense research and insights into clarity within seconds.',
+    title: 'Open to everyone',
+    body: 'Not a study association. ARC connects students, PhDs, engineers, and founders. The best projects happen at the intersection.',
   },
   {
     icon: (
@@ -41,8 +41,8 @@ const benefits = [
         <path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 7.65l1.06 1.06L12 21.23l7.77-7.77 1.06-1.06a5.4 5.4 0 0 0-.41-7.82z" />
       </svg>
     ),
-    title: 'Always Available',
-    body: 'Your silent partner, ready to help whenever you need it.',
+    title: 'Builder-first culture',
+    body: 'We ship things. Every event, every hackathon, every build week ends with something real. No slides-only culture, ever.',
   },
   {
     icon: (
@@ -50,8 +50,8 @@ const benefits = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
-    title: 'Built-in Trust',
-    body: 'Protected by design — your data, your ideas, always secure.',
+    title: 'Just getting started',
+    body: 'ARC is in its founding stage, which means you get to shape what it becomes. Now is the time to be in the room.',
   },
 ]
 
@@ -59,10 +59,10 @@ export default function Benefits() {
   return (
     <div>
       <div className="section-wrap">
-        <p className="label">Benefits</p>
+        <p className="label">WHY ARC</p>
         <h2 className="section-title" style={{ marginBottom: '40px' }}>
-          <strong>Invisible power at your side</strong>
-          <span className="gray"> delivering tangible benefits every day.</span>
+          <strong>Amsterdam has the ecosystem.</strong>
+          <span className="gray"> ARC connects it.</span>
         </h2>
 
         <div className="benefits-grid">
