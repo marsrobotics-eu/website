@@ -32,7 +32,7 @@ export default function About() {
 
           <div className="about-img-col reveal reveal-delay-2">
             <img
-              src="/assets/images/amsterdam.png"
+              src="/assets/images/amsterdam2.png"
               alt="Amsterdam"
               className="about-city-img"
             />
