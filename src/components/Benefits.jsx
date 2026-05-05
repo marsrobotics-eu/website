@@ -6,7 +6,7 @@ const benefits = [
       </svg>
     ),
     title: 'Real hardware access',
-    body: 'Shared workspace at LAB42, a hardware library, and access to real components. Build with hardware, not just simulations.',
+    body: 'A shared lab space, a hardware library, and access to real components. Build with hardware, not just simulations.',
   },
   {
     icon: (
@@ -59,10 +59,10 @@ export default function Benefits() {
   return (
     <div>
       <div className="section-wrap">
-        <p className="label">WHY MARS</p>
+        <p className="label">THE GOAL FOR MARS</p>
         <h2 className="section-title" style={{ marginBottom: '40px' }}>
           <strong>Amsterdam has the ecosystem.</strong>
-          <span className="gray"> MARS connects it.</span>
+          <span className="gray"> MARS is here to connect it.</span>
         </h2>
 
         <div className="benefits-grid">

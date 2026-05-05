@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80)
@@ -11,12 +12,13 @@ export default function Nav() {
 
   const scrollTo = (e, id) => {
     e.preventDefault()
+    setMenuOpen(false)
     const el = document.getElementById(id)
     if (el) el.scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
-    <nav className={`main-nav${scrolled ? ' main-nav--scrolled' : ''}`}>
+    <nav className={`main-nav${scrolled ? ' main-nav--scrolled' : ''}${menuOpen ? ' main-nav--open' : ''}`}>
       <a href="#" className="nav-logo">
         <svg
           className="nav-spark"
@@ -47,9 +49,15 @@ export default function Nav() {
 
       <a href="#" className="nav-cta">Join the Collective</a>
 
-      <div className="hamburger" aria-label="Menu">
+      <button
+        className="hamburger"
+        type="button"
+        aria-label="Menu"
+        aria-expanded={menuOpen}
+        onClick={() => setMenuOpen((open) => !open)}
+      >
         <span /><span /><span />
-      </div>
+      </button>
     </nav>
   )
 }
