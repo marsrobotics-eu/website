@@ -2,12 +2,16 @@ import { useState } from 'react'
 
 const tabs = ['Build', 'Learn', 'Compete', 'Connect']
 
-function TabImage({ src, position = 'center' }) {
+function TabImage({ src, position = 'center', size = 'cover' }) {
   return (
     <div className="tab-img-wrap">
       <div
         className="tab-img-inner"
-        style={{ backgroundImage: `url('${src}')`, backgroundPosition: position }}
+        style={{
+          backgroundImage: `url('${src}')`,
+          backgroundPosition: position,
+          backgroundSize: size,
+        }}
       />
     </div>
   )
@@ -42,7 +46,7 @@ function LearnPanel() {
 function CompetePanel() {
   return (
     <div className="tab-panel active">
-      <TabImage src="/assets/images/orange-robot1.png" position="center" />
+      <TabImage src="/assets/images/orange-robot1.png" position="center 8%" />
       <div className="tab-text">
         <p className="tab-sublabel">COMPETITIONS</p>
         <h3>Travel teams for ESRA challenges, Eurobot, and RoboCup. MARS gives Amsterdam builders a path into serious European robotics competitions.</h3>
