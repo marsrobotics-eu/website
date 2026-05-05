@@ -1,6 +1,6 @@
 const testimonials = [
   {
-    quote: '"ARC transformed how I write. Ideas that used to take hours now take minutes. It feels like having a co-writer who never sleeps."',
+    quote: '"MARS transformed how I write. Ideas that used to take hours now take minutes. It feels like having a co-writer who never sleeps."',
     name: 'Sarah K.',
     role: 'Content Strategist',
     avatarBg: '#253040',
@@ -12,7 +12,7 @@ const testimonials = [
     avatarBg: '#253530',
   },
   {
-    quote: '"I was skeptical about AI tools, but ARC feels different. It\'s subtle, intelligent, and always right there when I need it most."',
+    quote: '"I was skeptical about AI tools, but MARS feels different. It\'s subtle, intelligent, and always right there when I need it most."',
     name: 'Mia T.',
     role: 'Freelance Writer',
     avatarBg: '#302538',

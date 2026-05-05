@@ -23,17 +23,17 @@ export default function Nav() {
           width="18" height="18" viewBox="0 0 24 24" fill="none"
           aria-hidden="true"
         >
-          <path d="M12 2L13.8 8.2L20 10L13.8 11.8L12 18L10.2 11.8L4 10L10.2 8.2L12 2Z" fill="white" />
-          <path d="M19 15L19.9 17.6L22.5 18.5L19.9 19.4L19 22L18.1 19.4L15.5 18.5L18.1 17.6L19 15Z" fill="white" opacity="0.6" />
-          <path d="M5 3L5.7 5L7.5 5.7L5.7 6.4L5 8.5L4.3 6.4L2.5 5.7L4.3 5L5 3Z" fill="white" opacity="0.6" />
+          <circle cx="12" cy="12" r="6.5" fill="#d95f33" />
+          <path d="M12 12V5.5M12 5.5h3.5" stroke="white" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="12" cy="12" r="1.5" fill="white" />
         </svg>
 
-        {/* "ARC" always visible */}
-        <span className="logo-short">ARC</span>
+        {/* "MARS" always visible */}
+        <span className="logo-short">MARS</span>
 
-        {/* " — Amsterdam Robotics Collective" slides in on scroll */}
+        {/* " — Makers And Robotics Society, Amsterdam" slides in on scroll */}
         <span className={`logo-full${scrolled ? ' logo-full--visible' : ''}`}>
-          &nbsp;Amsterdam Robotics Collective
+          &nbsp;Makers And Robotics Society, Amsterdam
         </span>
       </a>
 

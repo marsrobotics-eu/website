@@ -6,7 +6,7 @@ const benefits = [
       </svg>
     ),
     title: 'Real hardware access',
-    body: 'Workshop space at Fablab Amsterdam, ZB45, and university labs. Build with actual components, not just simulations.',
+    body: 'Shared workspace at LAB42, a hardware library, and access to real components. Build with hardware, not just simulations.',
   },
   {
     icon: (
@@ -33,7 +33,7 @@ const benefits = [
       </svg>
     ),
     title: 'Open to everyone',
-    body: 'Not a study association. ARC connects students, PhDs, engineers, and founders. The best projects happen at the intersection.',
+    body: 'Not a study association. MARS connects students, PhDs, professionals, industry engineers, and makers.',
   },
   {
     icon: (
@@ -51,7 +51,7 @@ const benefits = [
       </svg>
     ),
     title: 'Just getting started',
-    body: 'ARC is in its founding stage, which means you get to shape what it becomes. Now is the time to be in the room.',
+    body: 'MARS is in its founding stage, which means you get to shape what it becomes. Now is the time to be in the room.',
   },
 ]
 
@@ -59,10 +59,10 @@ export default function Benefits() {
   return (
     <div>
       <div className="section-wrap">
-        <p className="label">WHY ARC</p>
+        <p className="label">WHY MARS</p>
         <h2 className="section-title" style={{ marginBottom: '40px' }}>
           <strong>Amsterdam has the ecosystem.</strong>
-          <span className="gray"> ARC connects it.</span>
+          <span className="gray"> MARS connects it.</span>
         </h2>
 
         <div className="benefits-grid">

@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <div id="features">
       <div className="section-wrap">
-        <p className="label reveal">Introducing Amsterdam Robotics Collective</p>
+        <p className="label reveal">Introducing Makers And Robotics Society, Amsterdam</p>
         <h2 className="section-title reveal reveal-delay-1">
           <strong>Building the machines that will define the next century.</strong>
           <span className="gray"> Starting in Amsterdam.</span>
@@ -17,11 +17,11 @@ export default function Features() {
               <div className="feat-img-overlay" style={{ background: 'rgba(0,0,0,0.25)' }} />
               <div className="feat-chip feat-chip--tl">
                 <span className="feat-chip-dot" />
-                Next build week: May 10
+                Project teams
               </div>
             </div>
             <h3>Build</h3>
-            <p>Hands-on hackathons, build weeks, and real hardware projects. We make things that move.</p>
+            <p>Shared workspace, a hardware library, and project teams shipping real robots: drones, manipulators, and autonomous platforms.</p>
           </article>
 
           {/* Card 2 — Learn */}
@@ -45,11 +45,11 @@ export default function Features() {
               <div className="feat-img-overlay" style={{ background: 'rgba(0,0,0,0.25)' }} />
               <div className="feat-chip feat-chip--tl">
                 <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
-                #2 in Europe
+                European teams
               </div>
             </div>
             <h3>Compete</h3>
-            <p>Robotics competitions and challenges that push your skills and connect you to the best builders in Europe.</p>
+            <p>Travel teams for ESRA challenges, Eurobot, and RoboCup, giving Amsterdam builders a place in European robotics competitions.</p>
           </article>
 
         </div>

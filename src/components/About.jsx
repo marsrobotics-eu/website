@@ -17,17 +17,15 @@ export default function About() {
               deployed system.
             </p>
             <p>
-              We looked at Amsterdam and saw a city with world-class AI talent, a thriving startup ecosystem, and serious
-              research institutions, but no builder community for the people who want to work at the physical frontier.
-              That culture exists in Delft, in Zurich, in Munich. The labs are there, the competitions are there, the
-              community is there.
+              We looked at Amsterdam and saw world-class labs, AI talent, and a serious robotics ecosystem, but no
+              community layer connecting the people who want to work at the physical frontier. The labs are there, the
+              competitions are there, the students and engineers are there. The connective tissue is missing.
             </p>
             <p>
-              We want to build that in Amsterdam. Not a club, not a study association, a collective of people who are
-              serious about robotics and want to be part of building it here, before it's obvious that this is where it
-              happens.
+              We want to build that in Amsterdam. Not a closed study association, but an open society for students, PhDs,
+              professionals, industry engineers, and makers who are serious about robotics.
             </p>
-            <p className="about-closer">That's why ARC exists.</p>
+            <p className="about-closer">That's why MARS exists.</p>
           </div>
 
           <div className="about-img-col reveal reveal-delay-2">

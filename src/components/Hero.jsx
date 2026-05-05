@@ -31,8 +31,8 @@ export default function Hero() {
           that <span className="word-move" data-word="move.">move.</span>
         </h1>
         <p>
-          Building the machines that will define the next century.<br />
-          Starting in Amsterdam.
+          An open builder community for students, researchers, engineers, and makers.<br />
+          Building Amsterdam's robotics layer.
         </p>
         <a href="#" className="pill">Join the Collective</a>
       </div>

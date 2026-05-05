@@ -2,16 +2,16 @@ import { useState } from 'react'
 
 const leftFaqs = [
   {
-    q: 'What is ARC?',
-    a: 'Amsterdam Robotics Collective is an open community for robotics builders, engineers, students, and researchers based in Amsterdam. We organise hackathons, keynotes, workshops, and competitions, and we\'re building toward membership in the ESRA European robotics network.',
+    q: 'What is MARS?',
+    a: 'Makers And Robotics Society, Amsterdam is an open builder community for students, researchers, engineers, professionals, and makers based in Amsterdam. We organise project teams, workshops, reading groups, and competition teams.',
   },
   {
     q: 'Do I need to be a student to join?',
-    a: 'No. ARC is open to everyone: students, PhD researchers, working engineers, and founders. The only requirement is that you\'re genuinely interested in building robotics.',
+    a: 'No. MARS is open to students, PhD researchers, professionals, industry engineers, and makers. The only requirement is that you\'re genuinely interested in building robotics.',
   },
   {
     q: 'What universities are you connected to?',
-    a: 'We have founding members from VU Amsterdam and UvA, and we\'re actively building relationships with TU Delft RSA and other Dutch technical universities.',
+    a: 'We have founding members from VU Amsterdam and UvA, and we\'re building cross-institutional links across UvA, VU, AUAS, industry, and the wider Dutch robotics ecosystem.',
   },
 ]
 
@@ -26,7 +26,7 @@ const rightFaqs = [
   },
   {
     q: 'How do I join?',
-    a: 'Fill in the form on this page or reach out directly at arc@amsterdamrobotics.nl. We\'ll be in touch.',
+    a: 'Fill in the form on this page or reach out directly at karinakalicka@gmail.com. We\'ll be in touch.',
   },
 ]
 

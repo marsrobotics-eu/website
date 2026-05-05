@@ -5,7 +5,7 @@ export default function HowItWorks() {
         <p className="label">How It Works</p>
         <h2 className="section-title">
           <strong>From zero to builder.</strong><br />
-          <span className="gray">Here's how ARC works.</span>
+          <span className="gray">Here's how MARS works.</span>
         </h2>
 
         <div className="how-grid">
@@ -57,7 +57,7 @@ export default function HowItWorks() {
               </div>
               <div className="step-body">
                 <h4>3. Build</h4>
-                <p>Join a project team, enter a competition, or pitch your own idea. ARC gives you the people, the space, and the network to make it real.</p>
+                <p>Join a project team, enter a competition, or pitch your own idea. MARS gives you the people, the space, and the network to make it real.</p>
               </div>
             </div>
           </div>

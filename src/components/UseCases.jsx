@@ -15,13 +15,12 @@ function BuildPanel() {
             <div className="chat-wrap">
               <div className="chat-header">
                 <div className="chat-avatar" />
-                <span className="chat-name">ARC</span>
+                <span className="chat-name">MARS</span>
               </div>
               <div className="chat-body">
-                <div className="intro-line">Here's a quick draft for your new blog post introduction:</div>
-                In today's fast-paced digital world, finding your unique voice is more important than ever. Whether
-                you're sharing stories, building your brand, or inspiring a community, the right words can turn simple
-                ideas into lasting impact.<br /><br />But writing doesn't have to be...
+                <div className="intro-line">Project team brief</div>
+                Autonomous platform sprint: define the stack, reserve hardware, test navigation indoors, and demo a
+                moving prototype by the end of the build cycle.<br /><br />Real parts, real constraints, real robots.
               </div>
               <div className="chat-actions" aria-hidden="true">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 4v6h6" /><path d="M3.51 15a9 9 0 1 0 .49-3.51" /></svg>
@@ -36,7 +35,7 @@ function BuildPanel() {
       </div>
       <div className="tab-text">
         <p className="tab-sublabel">HANDS-ON PROJECTS</p>
-        <h3>Hackathons, build weeks, and hardware projects with real deadlines and real shipping. No slides-only culture. We make things that move.</h3>
+        <h3>Shared workspace, a hardware library, and project teams that ship real robots: drones, manipulators, and autonomous platforms. No slides-only culture.</h3>
         <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>See upcoming builds</a>
       </div>
     </div>
@@ -49,7 +48,7 @@ function LearnPanel() {
       <div className="tab-img-wrap">
         <div className="tab-img-inner" style={{ background: '#0e1218', display: 'flex', alignItems: 'center', padding: '28px' }}>
           <div className="code-block">
-            <div className="code-comment">{'// ARC'}</div>
+            <div className="code-comment">{'// MARS'}</div>
             <div className="code-body">
               <span className="code-kw">function</span> <span className="code-fn">optimize</span>(data) {'{'}<br />
               &nbsp;&nbsp;<span className="code-kw">const</span> result = data.<span className="code-fn">map</span>(x =&gt; x * 2);<br />
@@ -74,17 +73,17 @@ function CompetePanel() {
       <div className="tab-img-wrap">
         <div className="tab-img-inner" style={{ background: '#0e1218', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '28px', gap: '12px' }}>
           <div className="focus-card">
-            <div className="focus-title">Research Summary</div>
-            <div className="focus-note">Analyzing 47 sources across academic databases, news outlets, and industry reports...</div>
+            <div className="focus-title">Competition Track</div>
+            <div className="focus-note">Preparing Amsterdam teams for ESRA challenges, Eurobot, and RoboCup.</div>
           </div>
           <div className="focus-card">
-            <div className="focus-note">Key findings: AI productivity tools show a 34% increase in output quality when used consistently over 30 days.</div>
+            <div className="focus-note">Build the robot, test under pressure, travel as a team, and represent Amsterdam in Europe.</div>
           </div>
         </div>
       </div>
       <div className="tab-text">
         <p className="tab-sublabel">COMPETITIONS</p>
-        <h3>Robotics challenges that push your skills and connect you to the best builders in Europe. Our pipeline leads to ESRA pan-European competitions and events.</h3>
+        <h3>Travel teams for ESRA challenges, Eurobot, and RoboCup. MARS gives Amsterdam builders a path into serious European robotics competitions.</h3>
         <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>See competitions</a>
       </div>
     </div>
@@ -97,17 +96,17 @@ function ConnectPanel() {
       <div className="tab-img-wrap">
         <div className="tab-img-inner" style={{ background: '#0e1218', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '28px', gap: '12px' }}>
           <div className="focus-card">
-            <div className="focus-title">Focus Session: 25:00</div>
+            <div className="focus-title">Open Model</div>
             <div className="progress-bar"><div className="progress-fill" /></div>
           </div>
           <div className="focus-card">
-            <div className="focus-note">3 tasks completed today. Stay focused, 2 remaining. You're doing great.</div>
+            <div className="focus-note">Students, PhDs, professionals, industry engineers, and makers building across institutions.</div>
           </div>
         </div>
       </div>
       <div className="tab-text">
         <p className="tab-sublabel">THE NETWORK</p>
-        <h3>Students, PhD researchers, engineers, and founders in one room. ARC is open to everyone, not just students. The best ideas come from people who wouldn't normally meet.</h3>
+        <h3>Students, PhD researchers, engineers, and founders in one room. MARS is open to everyone, not just students. The best ideas come from people who wouldn't normally meet.</h3>
         <a href="#" className="pill" style={{ fontSize: '13px', padding: '10px 22px' }}>Join the Collective</a>
       </div>
     </div>
