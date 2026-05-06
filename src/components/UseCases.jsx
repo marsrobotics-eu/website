@@ -46,7 +46,7 @@ function LearnPanel() {
 function CompetePanel() {
   return (
     <div className="tab-panel active">
-      <TabImage src="/assets/images/orange-robot1.png" position="center 8%" />
+      <TabImage src="/assets/images/orange_robot7.png" position="center 62%" />
       <div className="tab-text">
         <p className="tab-sublabel">COMPETITIONS</p>
         <h3>Travel teams for ESRA challenges, Eurobot, and RoboCup. MARS gives Amsterdam builders a path into serious European robotics competitions.</h3>
@@ -59,7 +59,7 @@ function CompetePanel() {
 function ConnectPanel() {
   return (
     <div className="tab-panel active">
-      <TabImage src="/assets/images/orange_robot7.png" position="center" />
+      <TabImage src="/assets/images/orange-robot1.png" position="center 68%" />
       <div className="tab-text">
         <p className="tab-sublabel">THE NETWORK</p>
         <h3>Students, PhD researchers, engineers, and founders in one room. MARS is open to everyone, not just students. The best ideas come from people who wouldn't normally meet.</h3>

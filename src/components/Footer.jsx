@@ -1,9 +1,5 @@
 const MarsLogo = () => (
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-    <circle cx="12" cy="12" r="6.5" fill="#d95f33" />
-    <path d="M12 12V5.5M12 5.5h3.5" stroke="white" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-    <circle cx="12" cy="12" r="1.5" fill="white" />
-  </svg>
+  <img className="nav-spark" src="/assets/images/our_logo-removebg-preview.png" alt="" aria-hidden="true" />
 )
 
 export default function Footer() {
