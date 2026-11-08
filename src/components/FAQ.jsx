@@ -7,7 +7,7 @@ const leftFaqs = [
   },
   {
     q: 'Do I need to be a student to join?',
-    a: 'No. MARS is open to students, PhD researchers, professionals, industry engineers, and makers. The only requirement is that you\'re genuinely interested in building robotics.',
+    a: 'No. MARS is open to students, PhD researchers, professionals, industry engineers, and makers. The only requirement is a genuine interest in building robotics.',
   },
   {
     q: 'What universities are you connected to?',
