@@ -45,7 +45,7 @@ Components are server-rendered by default. Only ones that need browser state (`N
 ## Common edits
 
 - **Text on a section:** open the matching file in `components/`.
-- **Team members:** `components/Team.jsx`, photos go in `public/assets/images/`.
+- **Team members:** `components/Team.tsx`, photos go in `public/assets/images/`.
 - **Colors, fonts, spacing:** `app/globals.css`.
 - **Images:** put them in `public/assets/images/` and reference them as `/assets/images/<file>`.
 
