@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 
 const leftFaqs = [
@@ -30,7 +32,7 @@ const rightFaqs = [
   },
 ]
 
-function FaqItem({ q, a }) {
+function FaqItem({ q, a }: { q: string; a: string }) {
   const [open, setOpen] = useState(false)
   return (
     <div className={`faq-item${open ? ' open' : ''}`}>

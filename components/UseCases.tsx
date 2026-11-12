@@ -1,8 +1,10 @@
+'use client'
+
 import { useState } from 'react'
 
 const tabs = ['Build', 'Learn', 'Compete', 'Connect']
 
-function TabImage({ src, position = 'center', size = 'cover' }) {
+function TabImage({ src, position = 'center', size = 'cover' }: { src: string; position?: string; size?: string }) {
   return (
     <div className="tab-img-wrap">
       <div

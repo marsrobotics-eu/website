@@ -1,3 +1,5 @@
+'use client'
+
 import { useState, useEffect } from 'react'
 
 export default function Nav() {
@@ -10,7 +12,7 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const scrollTo = (e, id) => {
+  const scrollTo = (e: React.MouseEvent, id: string) => {
     e.preventDefault()
     setMenuOpen(false)
     const el = document.getElementById(id)

@@ -1,7 +1,9 @@
+'use client'
+
 import { useEffect, useRef } from 'react'
 
 export default function Hero() {
-  const bgRef = useRef(null)
+  const bgRef = useRef<HTMLDivElement>(null)
 
   /* scroll parallax — background only */
   useEffect(() => {
