@@ -34,7 +34,7 @@ export default function Hero() {
         </h1>
         <p>
           An open builder community for students, researchers, engineers, and makers.<br />
-          Building Amsterdam's robotics layer.
+          Building Amsterdam's robotics community.
         </p>
         <a href="#" className="pill">Join the Collective</a>
       </div>

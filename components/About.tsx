@@ -11,15 +11,15 @@ export default function About() {
         <div className="about-cols">
           <div className="about-body reveal reveal-delay-2">
             <p>
-              The future of AI isn't just software. It's embodied: robots that perceive, reason, and act in the physical
+              The future of AI is not limited to software. It's embodied: robots that perceive, reason, and act in the physical
               world. And unlike most of the AI industry right now, you can't vibe-code your way to a robot that works.
               Robotics demands real engineering, real hardware, and people who know the difference between a demo and a
               deployed system.
             </p>
             <p>
-              We looked at Amsterdam and saw world-class labs, AI talent, and a serious robotics ecosystem, but no
-              community layer connecting the people who want to work at the physical frontier. The labs are there, the
-              competitions are there, the students and engineers are there. The connective tissue is missing.
+              We looked at Amsterdam and saw labs, AI talent, and a serious robotics ecosystem, but no
+              community connecting the people who want to work at the physical frontier. The labs are there, the
+              competitions are there, the students and engineers are there.
             </p>
             <p>
               We want to build that in Amsterdam. Not a closed study association, but an open society for students, PhDs,
