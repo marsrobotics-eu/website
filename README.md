@@ -11,7 +11,7 @@ We build things that move.
 [![Live site](https://img.shields.io/badge/live-marsrobotics.eu-c2410c?style=flat-square)](https://www.marsrobotics.eu)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=flat-square&logo=nextdotjs)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Deployed on Vercel](https://img.shields.io/badge/deployed%20on-Vercel-000000?style=flat-square&logo=vercel)](https://vercel.com)
+[![Deployed on Railway](https://img.shields.io/badge/deployed%20on-Railway-0B0D0E?style=flat-square&logo=railway)](https://railway.com)
 [![Release](https://img.shields.io/github/v/release/marsrobotics-eu/website?style=flat-square&color=c2410c)](https://github.com/marsrobotics-eu/website/releases)
 
 <br />
@@ -63,7 +63,7 @@ Open [http://localhost:3000](http://localhost:3000). Changes show up as you save
 | Styling    | Plain CSS in one file, `app/globals.css`                        |
 | Font       | Inter, self-hosted through `next/font` (no Google requests)     |
 | Rendering  | Prerendered to static HTML at build time, fast and SEO-friendly |
-| Hosting    | Vercel, with automatic deploys from GitHub                      |
+| Hosting    | Railway, in the AISO workspace (project `mars-website`)         |
 
 ## Project structure
 
@@ -88,7 +88,7 @@ components/
 public/
   assets/images/      Logos, backgrounds, team photos
 docs/                 Images used in this README
-vercel.json           Framework and security headers
+next.config.ts        Security headers and the redirect to www
 ```
 
 Components render on the server by default. Only the ones that need the browser (`Nav`, `Hero`, `FAQ`, `UseCases`, `Reveal`) start with `'use client'`.
@@ -111,20 +111,22 @@ For any text visitors read, follow the writing guidelines in [`AGENTS.md`](AGENT
 
 ## Deployment
 
-Vercel deploys this repo automatically. There is nothing to run by hand.
+The site runs on Railway, in the AISO workspace, project `mars-website`, service `website`. Railway builds with `npm run build` and serves with `npm run start`.
 
-| You push to...         | Result                                                      |
-| ---------------------- | ----------------------------------------------------------- |
-| `master`               | Goes live on [marsrobotics.eu](https://www.marsrobotics.eu) |
-| Any other branch or PR | Gets its own preview URL, posted on the PR                  |
+To deploy by hand from a checkout of `master`:
 
-`marsrobotics.eu` redirects to `www.marsrobotics.eu`. If a deploy breaks something, roll back to the previous one in the Vercel dashboard under Deployments.
+```sh
+railway link --project mars-website
+railway up --service website
+```
+
+`marsrobotics.eu` redirects to `www.marsrobotics.eu`. The redirect lives in `next.config.ts`. If a deploy breaks something, roll back to the previous one in the Railway dashboard under Deployments.
 
 ## Security
 
 - The site is static. No backend, no database, no user data, no API keys.
-- Never commit secrets. If one is ever needed, add it as an environment variable in Vercel, not in the code.
-- `vercel.json` sets strict security headers: Content Security Policy, no framing, no MIME sniffing, a strict referrer policy, and camera, mic and location turned off.
+- Never commit secrets. If one is ever needed, add it as an environment variable in Railway, not in the code.
+- `next.config.ts` sets strict security headers: Content Security Policy, no framing, no MIME sniffing, a strict referrer policy, and camera, mic and location turned off.
 - GitHub secret scanning, push protection and Dependabot security updates are on for this repo.
 
 Found a security issue? Please email the team instead of opening a public issue.
@@ -134,7 +136,7 @@ Found a security issue? Please email the team instead of opening a public issue.
 1. Create a branch off `master`.
 2. Make your change and check it with `npm run dev`.
 3. Run `npm run build` to make sure it builds and type checks.
-4. Open a pull request. Vercel posts a preview link so the team can see it before it goes live.
+4. Open a pull request so the team can review it before it goes live.
 
 <div align="center">
 <br />
